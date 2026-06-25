@@ -20,8 +20,8 @@
     ]
   },
   "logo": {
-    "light": "/images/dark.svg",
-    "dark": "/images/light.svg"
+    "light": "/images/light.svg",
+    "dark": "/images/dark.svg"
   },
   "navbar": {
     "links": [
