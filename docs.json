@@ -3,7 +3,7 @@
   "theme": "linden",
   "name": "Mintlify Starter Kit",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#00A4FF",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -50,5 +50,9 @@
   },
   "fonts": {
     "family": "Geist"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
   }
 }
