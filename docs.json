@@ -9,13 +9,11 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      "design-system/introducao",
+    "groups": [
       {
-        "group": "Getting Started",
+        "group": "Design System",
         "pages": [
-          "index",
-          "quickstart"
+          "design-system/introducao"
         ]
       }
     ]
