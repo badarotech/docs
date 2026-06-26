@@ -9,7 +9,14 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": []
+    "groups": [
+      {
+        "group": "Introdução",
+        "pages": [
+          "design-system"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/images/light.svg",
