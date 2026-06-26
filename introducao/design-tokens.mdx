@@ -1,0 +1,64 @@
+---
+title: "Design Tokens"
+description: "Tokens de cor, tipografia, espaçamento e elevção"
+icon: "swatchbook"
+---
+
+## O que são Design Tokens
+
+Design Tokens são variáveis que armazenam decisões de design — como cores, fontes e espaçamentos — de forma centralizada e reutilizável.
+
+## Cores
+
+### Cores primárias
+
+| Token | Valor | Uso |
+| --- | --- | --- |
+| `color.primary.500` | `#00A4FF` | Ações principais |
+| `color.primary.600` | `#0086D1` | Hover de ações |
+| `color.primary.100` | `#CCEDFF` | Fundos sutis |
+
+### Cores neutras
+
+| Token | Valor | Uso |
+| --- | --- | --- |
+| `color.neutral.900` | `#0F1115` | Texto principal |
+| `color.neutral.500` | `#6B7280` | Texto secundário |
+| `color.neutral.100` | `#F3F4F6` | Backgrounds |
+
+## Tipografia
+
+| Token | Tamanho | Uso |
+| --- | --- | --- |
+| `font.size.xs` | 12px | Legendas |
+| `font.size.sm` | 14px | Texto auxiliar |
+| `font.size.md` | 16px | Corpo |
+| `font.size.lg` | 20px | Subtítulos |
+| `font.size.xl` | 32px | Títulos |
+
+**Família:** `Geist`, fallback `system-ui, sans-serif`.
+
+## Espaçamento
+
+<CodeGroup>
+
+```css Tokens
+--space-1: 4px;
+--space-2: 8px;
+--space-3: 12px;
+--space-4: 16px;
+--space-6: 24px;
+--space-8: 32px;
+```
+
+</CodeGroup>
+
+## Raios e elevação
+
+| Token | Valor |
+| --- | --- |
+| `radius.sm` | 4px |
+| `radius.md` | 8px |
+| `radius.lg` | 16px |
+| `shadow.sm` | `0 1px 2px rgba(0,0,0,0.06)` |
+| `shadow.md` | `0 4px 8px rgba(0,0,0,0.08)` |

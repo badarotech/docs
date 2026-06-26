@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "linden",
-  "name": "Mintlify Starter Kit",
+  "name": "Globo Ads Design System",
   "colors": {
     "primary": "#00A4FF",
     "light": "#00A4FF",
@@ -13,7 +13,28 @@
       {
         "group": "Introdução",
         "pages": [
-          "design-system"
+          "introducao/design-system",
+          "introducao/design-tokens",
+          "introducao/design-assets"
+        ],
+        "icon": "book-open"
+      },
+      {
+        "group": "Componentes",
+        "icon": "puzzle",
+        "pages": [
+          "componentes/button",
+          "componentes/badge"
+        ]
+      },
+      {
+        "group": "Institucional",
+        "icon": "building",
+        "pages": [
+          "institucional/sobre",
+          "institucional/changelog",
+          "institucional/contribuir",
+          "institucional/suporte"
         ]
       }
     ]

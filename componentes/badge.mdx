@@ -1,0 +1,53 @@
+---
+title: "Badge"
+description: "Componente para destacar status, contadores e categorias"
+icon: "badge-check"
+---
+
+## Visão geral
+
+O componente **Badge** é usado para destacar status, categorias ou contadores em meio a outros elementos da interface.
+
+## Variantes
+
+| Variante | Uso |
+| --- | --- |
+| `neutral` | Informação genérica |
+| `success` | Estado positivo (ativo, concluído) |
+| `warning` | Atenção necessária |
+| `danger` | Erro ou bloqueio |
+| `info` | Informação complementar |
+
+## Exemplo de uso
+
+<CodeGroup>
+
+```tsx React
+import { Badge } from "@globoads/design-system";
+
+export function Example() {
+  return (
+    <>
+      <Badge variant="success">Ativo</Badge>
+      <Badge variant="warning">Pendente</Badge>
+      <Badge variant="danger">Bloqueado</Badge>
+    </>
+  );
+}
+```
+
+```html HTML
+<span class="ga-badge ga-badge--success">Ativo</span>
+```
+
+</CodeGroup>
+
+## Props
+
+| Prop | Tipo | Padrão | Descrição |
+| --- | --- | --- | --- |
+| `variant` | `neutral` \| `success` \| `warning` \| `danger` \| `info` | `neutral` | Estilo visual |
+| `size` | `sm` \| `md` | `md` | Tamanho da badge |
+| `icon` | `ReactNode` | — | Ícone opcional |
+
+## Boas práticas

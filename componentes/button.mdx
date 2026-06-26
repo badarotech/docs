@@ -1,0 +1,62 @@
+---
+title: "Button"
+description: "Componente de botão para ações primárias e secundárias"
+icon: "square-mouse-pointer"
+---
+
+## Visão geral
+
+O componente **Button** é usado para iniciar ações no produto, como enviar formulários, navegar ou abrir modais.
+
+## Variantes
+
+| Variante | Quando usar |
+| --- | --- |
+| `primary` | Ação principal de uma tela |
+| `secondary` | Ações alternativas |
+| `ghost` | Ações de baixa ênfase |
+| `destructive` | Ações irreversíveis |
+
+## Tamanhos
+
+| Tamanho | Altura |
+| --- | --- |
+| `sm` | 32px |
+| `md` | 40px |
+| `lg` | 48px |
+
+## Exemplo de uso
+
+<CodeGroup>
+
+```tsx React
+import { Button } from "@globoads/design-system";
+
+export function Example() {
+  return (
+    <Button variant="primary" size="md" onClick={() => alert("Olá")}>
+      Enviar
+    </Button>
+  );
+}
+```
+
+```html HTML
+<button class="ga-btn ga-btn--primary ga-btn--md">
+  Enviar
+</button>
+```
+
+</CodeGroup>
+
+## Props
+
+| Prop | Tipo | Padrão | Descrição |
+| --- | --- | --- | --- |
+| `variant` | `primary` \| `secondary` \| `ghost` \| `destructive` | `primary` | Estilo visual |
+| `size` | `sm` \| `md` \| `lg` | `md` | Tamanho do botão |
+| `disabled` | `boolean` | `false` | Desabilita interações |
+| `loading` | `boolean` | `false` | Exibe indicador de loading |
+| `icon` | `ReactNode` | — | Ícone opcional |
+
+## Acessibilidade
