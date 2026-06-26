@@ -9,24 +9,7 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Introdução",
-        "pages": [
-          "sobre-o-design-system",
-          "design-tokens",
-          "design-assets"
-        ]
-      },
-      {
-        "tab": "Componentes",
-        "pages": [
-          "button",
-          "tab",
-          "badge"
-        ]
-      }
-    ]
+    "groups": []
   },
   "logo": {
     "light": "/images/light.svg",
