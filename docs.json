@@ -10,19 +10,12 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
+      "design-system/introducao",
       {
         "group": "Getting Started",
         "pages": [
           "index",
           "quickstart"
-        ]
-      }
-    ],
-    "groups": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "design-system/introducao"
         ]
       }
     ]
