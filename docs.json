@@ -9,11 +9,21 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Design System",
+        "tab": "Introdução",
         "pages": [
-          "design-system/introducao"
+          "sobre-o-design-system",
+          "design-tokens",
+          "design-assets"
+        ]
+      },
+      {
+        "tab": "Componentes",
+        "pages": [
+          "button",
+          "tab",
+          "badge"
         ]
       }
     ]
