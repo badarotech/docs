@@ -22,8 +22,6 @@
       {
         "group": "Getting Started",
         "pages": [
-          "index",
-          "quickstart",
           "design-system/introducao"
         ]
       }
